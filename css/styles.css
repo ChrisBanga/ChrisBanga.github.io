@@ -1,9 +1,32 @@
+
 .greetings{
   text-align: center;
-  font-family:monospace;
+  font-family: monospace;
+  font-size: 70px;
 }
-.intro h2 {
-  text-align:left;
-  font-size: 20px;
+div{
+  border: 5px solid black;
+  padding:5px;
+}
+.intro{
+  background-color: grey;
+}
+.intro p {
+  font-family: serif;
+  font-size: 55px;
+}
+.intro h2{
+  font-family: serif;
+  font-size: 67.5px;
   font-weight: bold;
+}
+.intro::after {
+  content: "";
+  clear:both;
+  display: table;
+  background-color: grey;
+
+}
+.me{
+  float: left;
 }
