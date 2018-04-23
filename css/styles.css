@@ -1,3 +1,7 @@
+body{
+  border-style: solid;
+  border-width: 50px;
+}
 .greetings{
   text-align: center;
   font-family: monospace;
