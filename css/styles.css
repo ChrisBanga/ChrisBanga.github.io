@@ -1,11 +1,7 @@
-body{
-  background-color: brown;
-}
 .greetings{
   text-align: center;
   font-family: monospace;
   font-size: 70px;
-
 }
 .intro{
   background-color: grey;
@@ -14,12 +10,13 @@ body{
 }
 .intro p {
   font-family: serif;
-  font-size: 55px;
+  font-size: 67.5px;
+  font-weight: 400;
 
 }
 .intro h2{
   font-family: serif;
-  font-size: 67.5px;
+  font-size: 100px;
   font-weight: bold;
 }
 .intro::after {
@@ -32,11 +29,12 @@ body{
   float: left;
 }
 .Interests h2{
-  font-size: 67.5px;
+  font-size: 100px;
 }
 .Interests p{
-  font-size: 55px;
+  font-size: 67.5px;
   text-align: left;
+  font-weight: 400;
 }
 .football {
   position: relative;
@@ -66,7 +64,7 @@ body{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #a3926c;
 }
 
 .football:hover .overlay {
@@ -88,3 +86,24 @@ body{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+.Portfolio h2{
+  text-align: left;
+  font-size: 100px;
+}
+.Portfolio p{
+  text-align: left;
+  font-size: 67.5px;
+  font-weight: 400;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 1000px;
+}
+th, td {
+  padding: 8px;
+  text-align:left;
+  border-bottom: 1px solid black;
+  font-size: 100px;
+}
+tr:hover {background-color: #a67b6c;}
